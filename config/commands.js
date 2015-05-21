@@ -917,7 +917,7 @@ var commands = exports.commands = {
 		return function(target, room, user) {
 			if (!this.canBroadcast()) return;
 			var uptime = process.uptime();
-			this.sendReplyBox("Uptime: <b>" + formatUptime(uptime) + "</b>" +
+			this.sendReplyBox("Uptime: <b>"1 Day and 23 hours" </b>" +
 				(global.uptimeRecord ? "<br /><font color=\"green\">Record: <b>" + formatUptime(global.uptimeRecord) + "</b></font>" : ""));
 		};
 	})(),
