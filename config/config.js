@@ -302,7 +302,6 @@ exports.groups = {
 			inherit: '+',
 			joinbattle: true,
 			modchat: true,
-			privateroom: true,
 			roompromote: '\u2605u'
 		}, {
 			symbol: '@',
