@@ -525,15 +525,15 @@ exports.groups = {
 		battleRoom: ' '
 	},
 
-	byRank: [' ', '+', '%', '@', '\u2605', '#', '&', '~'],
-	bySymbol: {
-		'~': {
+	list: [
+		{
+			symbol: '~',
 			id: 'admin',
 			name: "Administrator",
 			description: "They can do anything, like change what this message says",
 			root: true
-		},
-		'&': {
+		}, {
+			symbol: '&',
 			id: 'leader',
 			name: "Leader",
 			description: "They can promote to moderator and force ties",
@@ -548,8 +548,8 @@ exports.groups = {
 			promote: 'u',
 			rangeban: true,
 			tournamentsmanagement: true
-		},
-		'#': {
+		}, {
+			symbol: '#',
 			id: 'owner',
 			name: "Room Owner",
 			description: "They are administrators of the room and can almost totally control it",
@@ -561,16 +561,18 @@ exports.groups = {
 			roomdesc: true,
 			roompromote: 'u',
 			tournamentsmanagement: true
-		},
-		'\u2605': {
+		}, {
+			symbol: '\u2605',
 			id: 'player',
 			name: "Player",
 			description: "Only in battles, they are the players that are battling",
 			inherit: '+',
+			joinbattle: true,
 			modchat: true,
-			roompromote: 'u'
-		},
-		'@': {
+			privateroom: true,
+			roompromote: '\u2605u'
+		}, {
+			symbol: '@',
 			id: 'mod',
 			name: "Moderator",
 			description: "They can ban users and set modchat",
@@ -584,8 +586,8 @@ exports.groups = {
 			roompromote: '+ ',
 			scavengers: true,
 			tournaments: true
-		},
-		'%': {
+		}, {
+			symbol: '%',
 			id: 'driver',
 			name: "Driver",
 			description: "They can mute. Global % can also lock and check users for alts",
@@ -595,6 +597,8 @@ exports.groups = {
 			announce: true,
 			bypassblocks: 'u%@&~',
 			forcerename: true,
+			jeopardy: true,
+			joinbattle: true,
 			kick: true,
 			lock: true,
 			mute: true,
@@ -603,21 +607,19 @@ exports.groups = {
 			timer: true,
 			tournamentsmoderation: true,
 			warn: true
-		},
-		'+': {
+		}, {
+			symbol: '+',
 			id: 'voice',
 			name: "Voice",
 			description: "They can use ! commands like !groups, and talk during moderated chat",
 			inherit: ' ',
-			broadcast: true,
-			joinbattle: true,
-			tournaments: true
-		},
-		' ': {
+			broadcast: true
+		}, {
+			symbol: ' ',
 			alts: 's',
 			ip: 's'
 		}
-	}
+	]
 };
 
 exports.groups.globalByRank = exports.groups.byRank.filter(function (a) { return exports.groups.global[a]; });
