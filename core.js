@@ -383,12 +383,12 @@ var core = exports.core = {
 	':wynaut:': 'http://cbc.pokecommunity.com/config/emoticons/wynaut.png',
 	':y:': 'http://cbc.pokecommunity.com/config/emoticons/y.png',
 	':yoshi:': 'http://cbc.pokecommunity.com/config/emoticons/yoshi.png',
-	':(': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0101-sadsmile.gif',
+	':(': 'http://i.imgur.com/dWahlUv.gif',
         ':)': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0100-smile.gif',
         ';(': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0106-crying.gif',
         ';)': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0105-wink.gif',
         ':$': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0111-blush.gif',
-        ':D': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0102-bigsmile.gif',
+        ':D': 'http://i.imgur.com/SfSg5bM.gif',
         ':*': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0109-kiss.gif',
         ':P': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0110-tongueout.gif',
         ':}': 'http://factoryjoe.s3.amazonaws.com/emoticons/emoticon-0116-evilgrin.gif',
@@ -434,7 +434,10 @@ var core = exports.core = {
         ':ashu:': 'http://i.imgur.com/pIV686k.gif',
         'fma': 'http://i.imgur.com/0NeA5Xp.gif',
         'rockass': 'http://i.imgur.com/1b6fFcM.gif',
-        'hellangry': 'http://i.imgur.com/C6TuJy2.gif'
+        'hellangry': 'http://i.imgur.com/C6TuJy2.gif',
+        ':gleamy:': 'http://i.imgur.com/EMNaXed.gif',
+        ':OhShet:': 'http://i.imgur.com/e4kH4Zj.gif'
+        
     },
 
     processEmoticons: function (text) {
