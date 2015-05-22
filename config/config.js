@@ -562,14 +562,15 @@ exports.groups = {
 			roompromote: 'u',
 			tournamentsmanagement: true
 		},
-		'\u2605': {
-			id: 'player',
+		{
+			symbol: '\u2605',
+	 		id: "player",
 			name: "Player",
-			description: "Only in battles, they are the players that are battling",
 			inherit: '+',
+			roomvoice: true,
 			modchat: true,
 			privateroom: true,
-			roompromote: 'u'
+			joinbattle: true
 		},
 		'@': {
 			id: 'mod',
