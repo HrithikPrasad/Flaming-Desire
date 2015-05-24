@@ -15,7 +15,7 @@ var config = {
         4: 'roomban',
         5: 'lock'
     },
-    privaterooms: ['staff'],
+    privaterooms: ['staff,anrinshell'],
     hosting: {},
     laddering: false,
     ladderPercentage: 80,
@@ -334,7 +334,7 @@ var commands = {
 
             target = toId(target);
 
-            if (target === 'anrindas') message = 'oooooops he is Dragon Slayer Natsu.';
+            if (target === 'anrin') message = '/me fell Unconsious';
             if (target === config.userid()) message = 'That\'s me! BITCH!';
             if (target === 'zarel') message = 'Pokemon Showdown Creator.';
             if (target === 'indiancharizard#') message = 'Best Charizard in the world.';
