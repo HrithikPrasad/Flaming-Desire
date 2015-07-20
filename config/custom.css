@@ -1,80 +1,91 @@
- #header{background:url("http://slowbuddy.com/wp-content/gallery/plain-background/plasma_ab.jpg")}
- 
- body{background-image:url("http://i.imgur.com/KZjNkXd.jpg");background-repeat:no-repeat;background-position:center}
- 
- .chat-log{font-size:10pt;background: url("http://i.imgur.com/563NKNl.png") no-repeat scroll right bottom;background:#ff895c;color:#000;overflow:auto;}
- 
- .menugroup .button{
- background:#08298A;
- font-size:10px;
- }
- 
- .maintabbarbottom {
- 	background: url(http://fc03.deviantart.net/fs71/i/2011/309/1/d/dark_blue_texture_by_carlbert-d4f8fa2.jpg);
- }
- .menugroup {
- text-align: center;
- font-size:10px;
- }
- 
- .chat-log-add{
- background: url(http://fc03.deviantart.net/fs71/i/2011/309/1/d/dark_blue_texture_by_carlbert-d4f8fa2.jpg);
- }
- .button:hover{background:#08298A;}
- 
- .userlist {
- border-left: 1px solid #D5DDE4;
- background: url(http://fc03.deviantart.net/fs71/i/2011/309/1/d/dark_blue_texture_by_carlbert-d4f8fa2.jpg);
- }
- 
- .tabbar a.button.cur, .tabbar a.button.cur:hover {
- background: url(http://fc03.deviantart.net/fs71/i/2011/309/1/d/dark_blue_texture_by_carlbert-d4f8fa2.jpg);
- color:white;
- }
- 
-.tabbar a.button: {
-	background: url(http://fc03.deviantart.net/fs71/i/2011/309/1/d/dark_blue_texture_by_carlbert-d4f8fa2.jpg);
- color:white;
- }
-.pm-window.focused h3:hover {
-	background-color:##000000; 
-	border-color:##000000;
+/*Header*/
+#header{
+background:url("http://img06.deviantart.net/a7f3/i/2012/294/8/2/all_fire_pokemon_wallpaper_by_dragonsdenda-d5iiavh.jpg")
 }
-.ps-room.ps-room-opaque{
-background: url("http://i.imgur.com/Q8vHT0Y.png");
-}
-
-.ps-room.ps-room-light{
-opacity:0.9;
+/*Main BG*/
+body {
+background-image:url('http://images.forwallpaper.com/files/images/6/6da1/6da1bb8a/600087/pokemon-red.jpg');
+background-repeat:no-repeat;
+background-position:center fixed;
 }
 
 
-.pm-window.focused h3 {
-	background-color:##000000;
-	border-color:##000000;
+/*PM Box*/
+.pm-log {
+min-height: 100px;
+max-height: 300px;
+background: url(http://p1.pichost.me/i/71/1960525.jpg) center top scroll;
+color: #ffffff;
+word-wrap: break-word;
+overflow: auto;
+border: 0px solid #000000;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
 }
-
 .pm-window h3 {
-	background-color:#58ACFA;
-	border-color:black;
+    background: #181616;
+   border: 2px;
 }
 .pm-window.focused h3, .pm-window.focused h3:hover {
-background: #58ACFA;
-border-color: black;
-}
-
-
-
-.pm-window h3 small  {
-color:#58ACFA;        
-border-color:black;
+background: #cbc8c8;
+border: 2px;
 }
 .pm-log-add {
-	background-color:#013770;
-	border-color:black;
+        background: #404040;
+   border: 2px;
+     border-color: #000;
 }
 
-.pm-log-add.focused {
-	background-color:#00e1ff;
-	border-color:#00e1ff;
+/*Chat*/
+.chat-log {
+     font-size: 10pt;
+     background: url("http://p1.pichost.me/i/71/1960525.jpg") repeat;
+     opacity: 1;
+     border-left: 1px solid rgb(95, 200, 255);
+     overflow: auto;
 }
+
+
+.userbar{
+border:1px solid #D3D3D3;
+padding:5px;
+background: #D3D3D3;
+margin-top:-5px
+}
+
+/*"Look for a battle" buttons (when hovered over)*/
+.menugroup .button:hover {
+    background: #8066B3;
+   color: #8066B3
+}
+
+/*"Look for a battle" buttons*/
+.menugroup .button {
+     background: #8066B3;
+   color: #8066B3
+}
+
+
+.userlist {
+  background: #D3D3D3;
+  color: #000000;
+  border: 1px solid;
+}
+
+.tabbar a.button.cur,.tabbar a.button.cur:hover {
+color: #3b3b3b;
+text-shadow:none;
+   border: 2px;
+background: #cccccc;
+cursor: default;
+}
+
+.tabbar a.button {
+background: #3b3b3b;
+color: #cccccc;
+}
+
+.char {
+  background: url(http://fc09.deviantart.net/fs71/f/2012/275/7/7/black_and_grey_stripe_pattern_by_wiizkiid-d5gm6uv.png) center;
+  color: #eff;
+  }
