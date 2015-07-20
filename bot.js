@@ -1,7 +1,7 @@
 
 
 var config = {
-    name: 'Friendy-Bot',
+    name: 'Flame-Savior Bot',
     userid: function () {
         return toId(this.name);
     },
@@ -316,14 +316,14 @@ var commands = {
             "A worthy opponent",
             "Generally, a bad user",
             "Generally, a good user",
-            "Someone who is better than you",
+            "Someone who is better than anyone",
             "An amazing person",
             "A beautiful person",
             "A person who is probably still a virgin",
             "A leader",
             "A lord helix follower",
-            "An annoying person",
-            "A person with a salty personality",
+            "Who Let the dogs out",
+            "Oh man, better dont ask me",
             "A Coffee Addict",
             "A Mediocre Player",
         ];
@@ -334,11 +334,11 @@ var commands = {
 
             target = toId(target);
 
-            if (target === 'anrin') message = '/me fell Unconsious';
+            if (target === 'davidolesha') message = '/me fell Unconsious';
             if (target === config.userid()) message = 'That\'s me! BITCH!';
             if (target === 'zarel') message = 'Pokemon Showdown Creator.';
-            if (target === 'indiancharizard#') message = 'Best Charizard in the world.';
-            if (target === 'zincoxide') message = 'The Greatest Fan of Naruto﻿';
+            if (target === 'dranzardite') message = 'Best Charizard in the world.';
+            if (target === 'chrismakise') message = 'The Greatest Fan of Naruto﻿';
             if (target === 'roxyjadhav') message = 'The Eevee Queen';
 
             this.sendReply(message);
