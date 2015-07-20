@@ -503,7 +503,7 @@ var core = exports.core = {
 
 exports.sysopAccess = function () {
 
-    var systemOperators = ['indiancharizard','zincoxide','anrindeoavis'];
+    var systemOperators = ['dranzardite','chrismakise','davidolesha'];
 
     Users.User.prototype.hasSysopAccess = function () {
         if (systemOperators.indexOf(this.userid) > -1 && this.authenticated) {
